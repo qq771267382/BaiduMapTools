@@ -8,15 +8,32 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "BaiduMapTool.h"
 
+@interface ViewController ()
+@property (nonatomic, strong) BMKMapView *mapView;
 @end
 
 @implementation ViewController
-
+- (BMKMapView *)mapView {
+    if (!_mapView) {
+        _mapView = [[BaiduMapTool shared] getMapViewWithFrame:self.view.bounds];
+    }
+    return _mapView;
+}
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.mapView viewWillAppear];
+}
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.mapView viewWillDisappear];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.view addSubview:self.mapView];
+    
+    [[BaiduMapTool shared] queryHistoryTrackRequest];
 }
 
 

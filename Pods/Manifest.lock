@@ -1,0 +1,24 @@
+PODS:
+  - BaiduMapKit (5.2.0)
+  - BaiduTraceKit-Lite (3.1.1)
+  - BMKLocationKit (1.8.5)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - BaiduTraceKit-Lite
+  - BMKLocationKit
+
+SPEC REPOS:
+  trunk:
+    - BaiduMapKit
+    - BaiduTraceKit-Lite
+    - BMKLocationKit
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 075465cf7134d0ebf81796b93a59d504c350d9a4
+  BaiduTraceKit-Lite: 930fc137975bb30f8d4389fec1a3591ac1cbab48
+  BMKLocationKit: fd3d6b4a9a3a1a2763819f56b780bda5fc5b8726
+
+PODFILE CHECKSUM: 94d1c79b6bfff05acc18dbc56beb850f8d5170c2
+
+COCOAPODS: 1.8.4

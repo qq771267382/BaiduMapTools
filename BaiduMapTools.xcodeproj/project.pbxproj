@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F3BBF7DCE7A722024A569A8 /* Pods_BaiduMapTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FF82742558D42B41E80861 /* Pods_BaiduMapTools.framework */; };
+		A2162CDA242054FE002FB2C3 /* BaiduMapTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2162CD9242054FE002FB2C3 /* BaiduMapTool.m */; };
+		A2162CF0242074BF002FB2C3 /* BMKHistoryTrackPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A2162CEA242074BF002FB2C3 /* BMKHistoryTrackPoint.m */; };
+		A2162CF1242074BF002FB2C3 /* BMKHistoryTrackEndPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A2162CED242074BF002FB2C3 /* BMKHistoryTrackEndPoint.m */; };
+		A2162CF2242074BF002FB2C3 /* BMKHistoryTrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A2162CEE242074BF002FB2C3 /* BMKHistoryTrackModel.m */; };
+		A2162CF624209FD0002FB2C3 /* HMXStartAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2162CF524209FD0002FB2C3 /* HMXStartAnnotation.m */; };
+		A2162CF924209FDE002FB2C3 /* HMXEndAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A2162CF824209FDE002FB2C3 /* HMXEndAnnotation.m */; };
+		A2162CFD2420A86D002FB2C3 /* traffic_texture_unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = A2162CFC2420A86D002FB2C3 /* traffic_texture_unknown.png */; };
 		A2A92096241A38B6006A515A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A92095241A38B6006A515A /* AppDelegate.m */; };
 		A2A92099241A38B6006A515A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A92098241A38B6006A515A /* ViewController.m */; };
 		A2A9209C241A38B6006A515A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A9209A241A38B6006A515A /* Main.storyboard */; };
@@ -35,6 +43,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D23DAE2F876938DFB9D0E72 /* Pods-BaiduMapTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapTools.release.xcconfig"; path = "Target Support Files/Pods-BaiduMapTools/Pods-BaiduMapTools.release.xcconfig"; sourceTree = "<group>"; };
+		83FF82742558D42B41E80861 /* Pods_BaiduMapTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaiduMapTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2162CD8242054FE002FB2C3 /* BaiduMapTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMapTool.h; sourceTree = "<group>"; };
+		A2162CD9242054FE002FB2C3 /* BaiduMapTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapTool.m; sourceTree = "<group>"; };
+		A2162CEA242074BF002FB2C3 /* BMKHistoryTrackPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKHistoryTrackPoint.m; sourceTree = "<group>"; };
+		A2162CEB242074BF002FB2C3 /* BMKHistoryTrackModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKHistoryTrackModel.h; sourceTree = "<group>"; };
+		A2162CEC242074BF002FB2C3 /* BMKHistoryTrackEndPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKHistoryTrackEndPoint.h; sourceTree = "<group>"; };
+		A2162CED242074BF002FB2C3 /* BMKHistoryTrackEndPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKHistoryTrackEndPoint.m; sourceTree = "<group>"; };
+		A2162CEE242074BF002FB2C3 /* BMKHistoryTrackModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKHistoryTrackModel.m; sourceTree = "<group>"; };
+		A2162CEF242074BF002FB2C3 /* BMKHistoryTrackPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKHistoryTrackPoint.h; sourceTree = "<group>"; };
+		A2162CF424209FD0002FB2C3 /* HMXStartAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMXStartAnnotation.h; sourceTree = "<group>"; };
+		A2162CF524209FD0002FB2C3 /* HMXStartAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMXStartAnnotation.m; sourceTree = "<group>"; };
+		A2162CF724209FDE002FB2C3 /* HMXEndAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMXEndAnnotation.h; sourceTree = "<group>"; };
+		A2162CF824209FDE002FB2C3 /* HMXEndAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMXEndAnnotation.m; sourceTree = "<group>"; };
+		A2162CFC2420A86D002FB2C3 /* traffic_texture_unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = traffic_texture_unknown.png; path = "../../../../运动轨迹1_slices/traffic_texture_unknown.png"; sourceTree = "<group>"; };
 		A2A92091241A38B6006A515A /* BaiduMapTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMapTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A92094241A38B6006A515A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A2A92095241A38B6006A515A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +74,7 @@
 		A2A920B4241A38B6006A515A /* BaiduMapToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiduMapToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2A920B8241A38B6006A515A /* BaiduMapToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapToolsUITests.m; sourceTree = "<group>"; };
 		A2A920BA241A38B6006A515A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8D728C35FFFBAD85C48A9C /* Pods-BaiduMapTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiduMapTools.debug.xcconfig"; path = "Target Support Files/Pods-BaiduMapTools/Pods-BaiduMapTools.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3BBF7DCE7A722024A569A8 /* Pods_BaiduMapTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2162CDB2420556A002FB2C3 /* BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				A2162CF324209FA2002FB2C3 /* CustomAnnotations */,
+				A2162CE9242074BF002FB2C3 /* BMKHistoryTrackModels */,
+				A2162CD8242054FE002FB2C3 /* BaiduMapTool.h */,
+				A2162CD9242054FE002FB2C3 /* BaiduMapTool.m */,
+				A2162CFC2420A86D002FB2C3 /* traffic_texture_unknown.png */,
+			);
+			path = BaiduMap;
+			sourceTree = "<group>";
+		};
+		A2162CE9242074BF002FB2C3 /* BMKHistoryTrackModels */ = {
+			isa = PBXGroup;
+			children = (
+				A2162CEA242074BF002FB2C3 /* BMKHistoryTrackPoint.m */,
+				A2162CEB242074BF002FB2C3 /* BMKHistoryTrackModel.h */,
+				A2162CEC242074BF002FB2C3 /* BMKHistoryTrackEndPoint.h */,
+				A2162CED242074BF002FB2C3 /* BMKHistoryTrackEndPoint.m */,
+				A2162CEE242074BF002FB2C3 /* BMKHistoryTrackModel.m */,
+				A2162CEF242074BF002FB2C3 /* BMKHistoryTrackPoint.h */,
+			);
+			path = BMKHistoryTrackModels;
+			sourceTree = "<group>";
+		};
+		A2162CF324209FA2002FB2C3 /* CustomAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				A2162CF424209FD0002FB2C3 /* HMXStartAnnotation.h */,
+				A2162CF524209FD0002FB2C3 /* HMXStartAnnotation.m */,
+				A2162CF724209FDE002FB2C3 /* HMXEndAnnotation.h */,
+				A2162CF824209FDE002FB2C3 /* HMXEndAnnotation.m */,
+			);
+			path = CustomAnnotations;
+			sourceTree = "<group>";
+		};
 		A2A92088241A38B5006A515A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +146,8 @@
 				A2A920AC241A38B6006A515A /* BaiduMapToolsTests */,
 				A2A920B7241A38B6006A515A /* BaiduMapToolsUITests */,
 				A2A92092241A38B6006A515A /* Products */,
+				B557A9425C79C47835A9DAD0 /* Pods */,
+				C4D4068D14A3464CFF5634E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +168,7 @@
 				A2A92095241A38B6006A515A /* AppDelegate.m */,
 				A2A92097241A38B6006A515A /* ViewController.h */,
 				A2A92098241A38B6006A515A /* ViewController.m */,
+				A2162CDB2420556A002FB2C3 /* BaiduMap */,
 				A2A9209A241A38B6006A515A /* Main.storyboard */,
 				A2A9209D241A38B6006A515A /* Assets.xcassets */,
 				A2A9209F241A38B6006A515A /* LaunchScreen.storyboard */,
@@ -132,6 +196,23 @@
 			path = BaiduMapToolsUITests;
 			sourceTree = "<group>";
 		};
+		B557A9425C79C47835A9DAD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB8D728C35FFFBAD85C48A9C /* Pods-BaiduMapTools.debug.xcconfig */,
+				7D23DAE2F876938DFB9D0E72 /* Pods-BaiduMapTools.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4D4068D14A3464CFF5634E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83FF82742558D42B41E80861 /* Pods_BaiduMapTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2A920BD241A38B6006A515A /* Build configuration list for PBXNativeTarget "BaiduMapTools" */;
 			buildPhases = (
+				87F618AE1255257CF1428B08 /* [CP] Check Pods Manifest.lock */,
 				A2A9208D241A38B6006A515A /* Sources */,
 				A2A9208E241A38B6006A515A /* Frameworks */,
 				A2A9208F241A38B6006A515A /* Resources */,
+				224EA7478D5971CB895C47E9 /* [CP] Copy Pods Resources */,
+				3C6A09EFBC94CA454508D9D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2162CFD2420A86D002FB2C3 /* traffic_texture_unknown.png in Resources */,
 				A2A920A1241A38B6006A515A /* LaunchScreen.storyboard in Resources */,
 				A2A9209E241A38B6006A515A /* Assets.xcassets in Resources */,
 				A2A9209C241A38B6006A515A /* Main.storyboard in Resources */,
@@ -257,13 +342,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		224EA7478D5971CB895C47E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaiduMapTools/Pods-BaiduMapTools-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaiduMapTools/Pods-BaiduMapTools-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaiduMapTools/Pods-BaiduMapTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C6A09EFBC94CA454508D9D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaiduMapTools/Pods-BaiduMapTools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaiduMapTools/Pods-BaiduMapTools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaiduMapTools/Pods-BaiduMapTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F618AE1255257CF1428B08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaiduMapTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2A9208D241A38B6006A515A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2162CF0242074BF002FB2C3 /* BMKHistoryTrackPoint.m in Sources */,
 				A2A92099241A38B6006A515A /* ViewController.m in Sources */,
 				A2A920A4241A38B6006A515A /* main.m in Sources */,
+				A2162CF2242074BF002FB2C3 /* BMKHistoryTrackModel.m in Sources */,
+				A2162CDA242054FE002FB2C3 /* BaiduMapTool.m in Sources */,
+				A2162CF624209FD0002FB2C3 /* HMXStartAnnotation.m in Sources */,
+				A2162CF924209FDE002FB2C3 /* HMXEndAnnotation.m in Sources */,
+				A2162CF1242074BF002FB2C3 /* BMKHistoryTrackEndPoint.m in Sources */,
 				A2A92096241A38B6006A515A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +583,7 @@
 		};
 		A2A920BE241A38B6006A515A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8D728C35FFFBAD85C48A9C /* Pods-BaiduMapTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,7 +593,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mingxiang.BaiduMapTools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beehome.Gtalkie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +601,7 @@
 		};
 		A2A920BF241A38B6006A515A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D23DAE2F876938DFB9D0E72 /* Pods-BaiduMapTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +611,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mingxiang.BaiduMapTools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beehome.Gtalkie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

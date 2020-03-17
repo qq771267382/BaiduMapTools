@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "BaiduMapTool.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[BaiduMapTool shared] register_app];
     return YES;
 }
 
